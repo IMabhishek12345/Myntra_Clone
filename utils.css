@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+  
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bolder;
+    font-size: small;
+}
