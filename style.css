@@ -25,8 +25,9 @@ header{
     
 }
 .section1{
+
     background-color: rgb(236, 226, 226);
-    height: 122vh;
+    height: 60vh;
 }
 nav{
     padding-top: 10px;
@@ -35,11 +36,21 @@ nav{
 nav ul li{
     list-style: none;
     margin: 2px 4px;
-        
 }
+
 .search{
     width: 25vw;
     padding: 7px 20px;
     border: 0.5px solid lightgray;
     border-radius: 2px;
 }
+#img1{
+    width: 100%;
+}
+#img2{
+    width: 100%;
+}
+#img3{
+    width: 100%;
+}
+    
