@@ -59,16 +59,16 @@ nav ul li{
 .dot{
     cursor:pointer;
     display:inline-block;
-    background-color: darkgrey;
+    background-color: lightgray;
     height: 15px;
     width: 15px;
     margin: 0 2px;
     border-radius: 50%;
-    transition: background-color 0.6s ease;
+    transition: background-color 1s ease;
 }
 .image__dots{
     text-align: center;
 }
-.active{
-    background-color: white;
+.active ,.dot:hover{
+    background-color: #717171;
 }
