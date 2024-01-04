@@ -27,7 +27,7 @@ header{
 .section1{
 
     background-color: rgb(236, 226, 226);
-    height: 60vh;
+    /* height: 60vh; */
 }
 nav{
     padding-top: 10px;
@@ -44,17 +44,18 @@ nav ul li{
     border: 0.5px solid lightgray;
     border-radius: 2px;
 }
-#img1{
-    width: 100%;
+
+.home_img{
+    width: 80vw;
+    margin: 3% 0 ;
 }
-#img2{
-    width: 100%;
-}
-#img3{
-    width: 100%;
+.item_img{
+    width: 15vw;
+    margin: 16px 2px;
 }
 .image__Container{
     display: none;
+    
 }    
 .dot{
     cursor:pointer;

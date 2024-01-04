@@ -23,3 +23,12 @@
     margin-left: 12px;
     margin-right: 12px;
 }
+.my-2{
+    margin-top: 10%;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
