@@ -79,10 +79,13 @@ footer{
 }
 .rightBox{
     display: flex;
-   flex-direction: row;
-   margin:12px;
+    flex-direction: row;
+    margin:10px;
+ }
+@media (max-width:1200px) {
+header{
+    height: 20vh ;
 }
-@media (max-width:1500px) {
 nav{
    
    flex-direction: column;
@@ -92,8 +95,25 @@ nav{
     flex-direction: column;
 }
 .rightBox{
-    display: flex;
+   display: flex;
    flex-direction: row;
    margin:12px;
 }    
+}
+@media (max-width:430px) {
+header{
+    height: 20vh;
+}
+nav ul li{
+    list-style: none;
+    margin: 2px 4px;
+    font-size: 8px;
+}
+.search{
+    width: 65vw;
+    padding: 7px 20px;
+    border: 0.5px solid lightgray;
+    border-radius: 2px;
+}
+
 }
