@@ -1,16 +1,14 @@
 console.log("hi");
 
 let slideIndex=0;
+let slides=document.getElementsByClassName("image__Container");
+let dot=document.getElementsByClassName("dot");        
+
 const currentSlide=(index)=>{
   showSlide(index);
 }
-
 const showSlide=(index)=>{
-    
-    let slides=document.getElementsByClassName("image__Container");
-    let dot=document.getElementsByClassName("dot");        
-    console.log(dot);
-   
+     // let dot=document.getElementsByClassName("dot");        
     for (let ele of slides){
         ele.style.display="none"
     }
@@ -25,5 +23,13 @@ const showSlide=(index)=>{
     dot[index].className+=" active";
     
   }
-
+  setInterval(()=>{
+    if (slideIndex!==3){
+      showSlide(slideIndex)
+      slideIndex++;
+    }else{
+      slideIndex=0;
+    }
+  },2000)
+  
   currentSlide(slideIndex);
